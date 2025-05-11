@@ -1,3 +1,9 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
 button {
   cursor: pointer;
   background-color: #4d5ae5;
@@ -5,15 +11,13 @@ button {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
 }
 
-.button:hover {
+.button:hover,
+button:focus {
   background-color: #404bbf;
-}
-
-body {
-  font-family: "Roboto", "Helvetica Neue", "Vardana", sans-serif;
-  color: #2e2f42;
 }
 
 ul {
@@ -29,7 +33,7 @@ a {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 400;
 }
 
@@ -37,20 +41,17 @@ a {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 400;
 }
 
 .logo {
-  font-family: "Raleway", "Montserrat", "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-weight: 700;
-}
-
-.logo-web {
   color: #4d5ae5;
 }
 
@@ -78,7 +79,7 @@ a {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
@@ -91,7 +92,7 @@ a {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 400;
 }
 
@@ -99,23 +100,39 @@ a {
 .adress-link .link:focus {
   color: #404bbf;
 }
+
 h1 {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 700;
+  text-align: center;
 }
 
-h2 {
+.title-2 {
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.11;
   font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-h3 {
+.text-h3 {
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   line-height: 1.2;
   font-weight: 500;
+}
+
+.address-text {
+  font-style: normal;
+}
+
+.our-team-el {
+  background-color: #ffffff;
+}
+
+.our-portf {
+  background-color: #ffffff;
 }
