@@ -4,6 +4,15 @@ body {
   background-color: #ffffff;
 }
 
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
 button {
   cursor: pointer;
   background-color: #4d5ae5;
@@ -15,34 +24,9 @@ button {
   letter-spacing: 0.04em;
 }
 
-.button:hover,
-button:focus {
+.hero-button:hover:hover,
+hero-button:focus {
   background-color: #404bbf;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  font-style: normal;
-}
-
-.text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-}
-
-.text-footer {
-  color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: 400;
 }
 
 .logo {
@@ -63,19 +47,24 @@ a {
   color: #f4f4fd;
 }
 
-.title {
+.hero {
   background-color: #2e2f42;
 }
 
-.title-text {
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
-.sec-our-team {
-  background-color: #f4f4fd;
+.header {
+  background-color: #ffffff;
 }
 
-.nav-links .link {
+.header-nav-links .nav-link {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -83,12 +72,12 @@ a {
   font-weight: 500;
 }
 
-.nav-links .link:hover,
-.nav-links .link:focus {
+.header-nav-links .nav-link:hover,
+.header-nav-links .nav-link:focus {
   color: #404bbf;
 }
 
-.adress-link .link {
+.header-address-list .adress-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -96,43 +85,154 @@ a {
   font-weight: 400;
 }
 
-.adress-link .link:hover,
-.adress-link .link:focus {
+.header-address-list .adress-link:hover,
+.header-address-list .adress-link:focus {
   color: #404bbf;
 }
 
-h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  font-weight: 700;
-  text-align: center;
+.header-address {
+  font-style: normal;
 }
 
-.title-2 {
+.advantages {
+  background-color: #ffffff;
+}
+
+.advantages-title {
   font-size: 36px;
   letter-spacing: 0.02em;
   line-height: 1.11;
   font-weight: 700;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
-.text-h3 {
+.advantages-subtitle {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
   font-weight: 500;
+  color: #2e2f42;
 }
 
-.address-text {
-  font-style: normal;
+.advantages-list-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
-.our-team-el {
+.our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-team-list-item {
   background-color: #ffffff;
+}
+
+.our-team-subtitle {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.our-team-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  text-align: center;
 }
 
 .our-portf {
   background-color: #ffffff;
 }
+
+.our-portf-title {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our-portf-subtitle {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.our-portf-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+/* h1
+.title-text {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  text-align: center;
+} */
+
+/* h2 .title-section {
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+} */
+
+/*  h3 .title-section-small {
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #2e2f42;
+  } */
+
+/* .text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+  } */
